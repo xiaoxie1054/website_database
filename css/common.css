@@ -1,0 +1,240 @@
+body{
+	padding-top: 90px;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 320px;
+}
+.header{
+
+}
+
+.navbar{
+	min-height: 80px;
+}
+/*logo*/
+.navbar-inverse .navbar-brand.bg_transparent_color:focus, .navbar-inverse .navbar-brand.bg_transparent_color:hover {
+    color:rgb(157, 157, 157);
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand.bg_transparent_color:focus, .navbar-default .navbar-brand.bg_transparent_color:hover {
+    color:rgb(157, 157, 157);
+    background-color: transparent;
+}
+/*导航条a链接的字体*/
+.navbar-inverse .navbar-nav>li>a{
+	font-size: 16px;
+}
+.header .nav_img{
+	position: relative;
+}
+.header .nav_img .logo_text h1{
+	font-size: 24px;
+    margin-bottom: 5px;
+}
+.header .nav_img .logo_text p{
+	font-size: 14px;
+	padding: 0 4px;
+}
+
+/*搜索框*/
+.header .search .form-group{
+	position: relative;
+}
+.header .search .form-control{
+	padding: 6px 50px 6px 6px;
+}
+.header .search .search_button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 6px 8px;
+	outline: none;
+}
+.header .search .search_button:focus,.header .search .search_button:hover{
+	color: #333;
+    border-color: #ccc;
+	background-color: #fff;
+}
+
+/* 导航条a的点击和鼠标悬停 后的效果 */
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #080808;
+}
+.navbar-inverse .navbar-nav>li>a.bg_transparent:focus, .navbar-inverse .navbar-nav>li>a.bg_transparent:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+
+/*中间内容*/
+section{
+	padding: 10px;
+	color: #333;
+	background-color: rgba(34,34,34,0.3);
+	margin-bottom: 9px;
+}
+section h1{
+	font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+section p{
+	font-size: 14px;
+    line-height: 22px;
+}
+
+/*底部*/
+footer{
+	min-height: 80px;
+	background: rgb(34,34,34);
+	text-align: center;
+
+	display: -webkit-box;
+	display: -moz-box;    
+	display: -ms-flexbox;  
+	display: -webkit-flex;  
+	display: flex;
+
+	-webkit-box-align: center; 
+	-moz-box-align: center;
+	-ms-flex-align: center; 
+	-webkit-box-pack: center; 
+	-moz-box-pack: center; 
+	-ms-flex-pack: center;
+	align-items: center;
+	-webkit-align-items: center; 
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+footer h1{
+	font-size:18px;
+	color: rgba(157, 157, 157,0.8);
+	line-height: 26px;
+}
+
+
+
+
+@media (max-width: 768px){
+	body{
+		padding-top: 90px;
+	}
+
+	/* 三行杠-按钮 */	
+	.header .navbar_button{
+		margin-top: 24px;
+	}
+	/*登录与注册中间的1竖*/
+	.header .reg_log>li>a.h{
+		display: none;	}
+	/*头部导航logo*/
+
+	.header .nav_img{
+		width: 260px;
+		height: 80px;
+		padding:0 10px;
+		padding-top:10px\0;
+
+		display: -webkit-flex;  
+		display: -ms-flexbox;  
+		display: flex;   
+		display: -moz-box;    
+		display: -webkit-box;
+		
+		-webkit-box-align: center; 
+		-moz-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-align-items: center; 
+	}	
+	.header .nav_img img{
+		width: auto;
+		height: 80%;
+	}
+	.header .nav_img .logo_text{
+		position: absolute;
+		left:70px;
+		top: 0;
+		padding:10px 10px 4px;
+	}
+	/*底部版权*/
+	footer{
+		padding-top:15px\0;
+	}
+	
+}
+@media screen and (min-width: 580px) {
+	/*底部版权*/
+	footer{
+		padding-top:28px\0;
+	}
+}
+
+@media screen and (min-width: 768px){
+	/*头部导航logo*/
+
+	.container .header .nav_img{
+		padding:5px 10px 4px;
+		margin-left: -10px;
+		width: 300px;
+		height: 80px;
+	}
+	.header .nav_img img{
+		width: auto;
+		height: 100%;
+	}
+	.header .nav_img .logo_text{
+		position: absolute;
+		left:85px;
+		top: 0;
+		padding:10px 10px 4px;
+	}
+	/* 顶部导航条 */
+	.navbar-nav>li>a {
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.header .reg_log>li>a.register{
+		padding: 31px 0 29px 15px;
+		font-size: 14px;
+	}
+	.header .reg_log>li>a.login{
+		padding: 31px 50px 29px 0;
+		font-size: 14px;
+	}
+	.header .reg_log>li>a.h{
+		font-size: 16px;
+		padding: 30px 6px;
+		display: block;
+	}
+	/*导航条字体间距*/
+	.navbar-inverse .navbar-nav>li>a{
+		padding: 30px 20px;
+	}		
+	
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+	body{
+		padding-top: 140px;
+	}
+}
+
+@media (min-width: 1200px){
+	/* 搜索框 */
+	.header .search{
+		padding: 15px 20px;
+	}
+
+
+}
+
+
+
+
+

@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*{list-style:none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend,  caption,tfoot,thead, table, tbody,  
+tr, th, td/*,article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video */ { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    /*font-size: 100%; */
+    font-family: inherit; 
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+ 
+:focus { 
+    outline: 0; 
+} 
+table { 
+    border-collapse: separate; 
+    border-spacing: 0;
+} 
+/*caption, th, td { 
+    text-align: left; 
+    font-weight: normal; 
+} */
+a img, iframe { 
+    border: none; 
+} 
+ol, ul { 
+    list-style: none; 
+} 
+input, textarea, select, button { 
+    font-size: 100%; 
+    font-family: inherit; 
+} 
+select { 
+    margin: inherit; 
+} 
+/* Fixes incorrect placement of numbers in ol’s in IE6/7 */ 
+ol { margin-left:2em; } 
+/* == clearfix == */ 
+/*浮动清除浮动*/
+.clearfix:after { 
+    content: “.”; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; 
+} 
+.clearfix {display:inline-block;zoom:1;} 
+* html .clearfix {height: 1%;} 
+.clearfix {display: block;}
+/*左右浮动*/
+.fl{float:left;}
+.fr{float:right;}
+@media screen and (max-width: 767px){
+
+}
+/*上下边距*/
+.hr_2{height:2px; display:inline-block;}
+.hr_5{height:5px; display:inline-block;}
+.hr_8{height:8px; display:inline-block;}
+.hr_10{height:10px; display:inline-block;}
+.hr_15{height:15px; display:inline-block;}
+.hr_20{height:20px; display:inline-block;}
+.hr_25{height:25px; display:inline-block;}
+.hr_30{height:30px; display:inline-block;}
+.hr_32{height:32px; display:inline-block;}
+.hr_35{height:35px; display:inline-block;}
+.hr_40{height:40px; display:inline-block;}
+.hr_120{height:120px; display:inline-block;}
+
+/*左右边距*/
+.wr_5{width:5px;height:1px;}
+.wr_8{width:8px;height:1px;}
+.wr_10{width:10px;height:1px;}
+.wr_15{width:15px;height:1px;}
+.wr_20{width:20px;height:1px;}
+.wr_25{width:25px;height:1px;}
+.wr_30{width:30px;height:1px;}
+.wr_35{width:35px;height:1px;}
+.wr_40{width:40px;height:1px;}/*<div class="hr_5"></div><div class="wr_5"></div> 还得加浮动*/
+/*超链接无下划线*/
+a{text-decoration:none;}
+a:hover{
+    text-decoration: none;
+}
+/*隐藏与显示*/
+.over_hidden{overflow:hidden;}
+.display_n{display:none;}
+.display_b{display:block;}
+/*定位*/
+.position_re{position:relative;}
+.position_ab{position:absolute;}
+/*中心对齐*/
+.center{margin:0 auto;}
+/*手鼠标姿势*/
+.cursor{cursor:pointer;}
+/*测试背景颜色*/
+.background1{background-color:#FF0000;}
+.background2{background-color:#00Fd00;}
+.background3{background-color:#0000dF;}
+.background4{background-color:#00FFFd;}
+.background5{background-color:#FFF;}
+/*字体大小*/ 
+.f_z12{font-size:12px;}
+.f_z13{font-size:13px;}
+.f_z14{font-size:14px;}
+.f_z15{font-size:15px;}
+.f_z16{font-size:16px;}
+/*字体*/
+.f_f{font-family:"微软雅黑";}
+
+
+/* 外间距开始 */
+
+    .margin_5_0_0_0{
+        margin:5px 0 0 0;
+        border:1px solid #ccc;
+    }
+    .margin_0_0_5_0{
+        margin:0 0 5px 0;
+    }
+    
+/* 外间距结束 */
+
+/* 宽度开始 */
+
+.width_85_{
+    width: 85%;
+}
+
+/* 宽度结束 */
+
+.position_re_z2{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
